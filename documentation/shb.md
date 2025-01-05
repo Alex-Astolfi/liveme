@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "Project title"
-permalink: /documentation/shb/
+title:  "Studies on Human Behaviour - 2024"
+permalink: /documentation/shb/Studies on Human Behaviour - 2024
 ---
 
 # Project title
