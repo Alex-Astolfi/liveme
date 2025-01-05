@@ -4,7 +4,7 @@ title:  "Studies on Human Behaviour - 2024"
 permalink: /documentation/shb/Studies on Human Behaviour - 2024
 ---
 
-# Project title
+# Studies on Human Behaviour - 2024
 
 The goal of this webpage is to describe the process that generated the dataset that you have uploaded to the LiveMe repository. The dataset pages link to this webpage. It allows a potential consumer of the dataset to understand whether it fits his/her needs and to reproduce the project. This document contains why the dataset has been collected and how the data has been processed.
 
