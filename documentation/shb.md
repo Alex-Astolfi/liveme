@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Project Title
-permalink: /documentation/shb/Studies on Human Behaviour - 2024
+permalink: /documentation/shb/
 ---
 
 # Project Title
