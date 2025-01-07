@@ -1,16 +1,15 @@
 ---
 layout: project
-title:  Project Title
+title:  Studies on Human Behaviour - 2024
 permalink: /documentation/shb/
 ---
 
-# Project Title
-
-The goal of this webpage is to describe the process that generated the dataset that you have uploaded to the LiveMe repository. The dataset pages link to this webpage. It allows a potential consumer of the dataset to understand whether it fits his/her needs and to reproduce the project. This document contains why the dataset has been collected and how the data has been processed.
+# Studies on Human Behaviour - 2024
 
 ## Rationale for a new dataset
-This section should provide an overview of the study that generated the data, as well as outlining the potential reuse value of the data.
-Briefly provide a background of the project by providing an overview of the study that generated the data. You could also argue for the benefits of the proposed dataset, outlining the potential reuse value of the data or the new type of research it enables.
+The data uploaded on the website was collected within the scope of the "Studies of Human Behaviour" exam in the year 2024.
+It consists of timed diaries and mobile phone sensors data, acquired from a single person (myself) over the course of 10 days through the LiveMe application.
+The raw data was then elaborated and filtered to obtain a selected dataset to perform some basic analysis over it.
 
 ## Method
 
