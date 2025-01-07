@@ -19,58 +19,58 @@ Timed diaries were sent every half an hour, but not always answered instantly.
 ## Data Records
 All data records consist of parquet files, where each row corresponds to a timestamp in the collecion. The frequency changes based on the dataset. 
 
-### 2024-Shb-Trento-Airplane Mode Event
+#### 2024-Shb-Trento-Airplane Mode Event
 Every time the airplane mode is switched on or off, collects a true/false string.
 
-### 2024-Shb-Trento-Application Event
+#### 2024-Shb-Trento-Application Event
 Every 5 seconds, collects the name of the application running in the foreground.
 
-### 2024-Shb-Trento-Battery Charge Event
+#### 2024-Shb-Trento-Battery Charge Event
 When the phone is under charge or taken off charge, collects a true/false string and the type of charger.
 
-### 2024-Shb-Trento-Battery Monitoring Log
+#### 2024-Shb-Trento-Battery Monitoring Log
 Every minute collects the level of the battery unless it is 20% or lower.
 
-### 2024-Shb-Trento-Bluetooth
+#### 2024-Shb-Trento-Bluetooth
 Every millisecond collects new bluetooth devices in the surroundings, both normal and low-energy.
 
-### 2024-Shb-Trento-Cellular Network
+#### 2024-Shb-Trento-Cellular Network
 Every second collects signal strength and type of cell to which the phone cellular network is connected.
 
-### 2024-Shb-Trento-Doze
+#### 2024-Shb-Trento-Doze
 When the phone switches on or off battery saving mode, collects a true/false string.
 
-### 2024-Shb-Trento-Location
+#### 2024-Shb-Trento-Location
 Collects gps location, passive location (when an application that uses the location is used), and network location in terms of latitude, longitude, altitude, bearing and speed.
 
-### 2024-Shb-Trento-Music
+#### 2024-Shb-Trento-Music
 When music is played or stopped on the phone, collects a true/false string.
 
-### 2024-Shb-Trento-Notification
+#### 2024-Shb-Trento-Notification
 Whenever a notification is received by the phone or dismissed by the user, collect information about the notification.
 
-### 2024-Shb-Trento-Ring Mode Event
+#### 2024-Shb-Trento-Ring Mode Event
 When the phone mode is switched between normal, silent and vibrate, collects a string of the mode being activated.
 
-### 2024-Shb-Trento-Screen
+#### 2024-Shb-Trento-Screen
 At milliseconds rate, collects whether the phone screen is on or off through a string.
 
-### 2024-Shb-Trento-Step Counter Event
+#### 2024-Shb-Trento-Step Counter Event
 Every 100 steps taken from last phone power on, collects the total number of steps.
 
-### 2024-Shb-Trento-Step Detector Event
+#### 2024-Shb-Trento-Step Detector Event
 Collects an entry for every step taken by the user.
 
-### 2024-Shb-Trento-Touch
+#### 2024-Shb-Trento-Touch
 Collects an entry every time the screen is touched.
 
-### 2024-Shb-Trento-Wifi
+#### 2024-Shb-Trento-Wifi
 Collects ssid, bssid of the wifi cell the phone is connected to and a true/false string
 
-### 2024-Shb-Trento-Wifi Networks Event
+#### 2024-Shb-Trento-Wifi Networks Event
 At milliseconds rate, collect informations about all WiFi networks available. 
 
-### 2024-Shb-Trento-Timediary
+#### 2024-Shb-Trento-Timediary
 Every entry is a time diary or morning/evening question answer. Contains information on when the notification was sent, when it was answered, the time of the notification, whether a break status was on and answer to questions:
 - What are you doing?
 - Where are you?
