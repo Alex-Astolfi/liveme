@@ -9,15 +9,76 @@ permalink: /documentation/shb/
 ## Rationale for a new dataset
 The data uploaded on the website was collected within the scope of the "Studies of Human Behaviour" exam in the year 2024.
 It consists of timed diaries and mobile phone sensors data, acquired from a single person (myself) over the course of 10 days through the LiveMe application.
-The raw data was then elaborated and filtered to obtain a selected dataset to perform some basic analysis over it.
+The raw data was then elaborated and filtered to obtain a selected dataset to perform some basic analysis of factors impacting mood, mood change and answer delay.
 
 ## Method
-
-This section details data collection protocols such as apparatus (e.g., smartphone model and operating system version), duration, and environments. The authors may include technical and scientific aspects related to tools, procedures, and best practices which enabled the dataset to be collected and curated.
+The data was collected through a Fairphone 5G with Android 14 operating version, from 01/10/24 to 10/10/24. The original collection span was supposed to last until 22/10/2024, but after an Android security update the application stopped working and it was not possible to continue.
+All sensors were switched on for the whole duration of the collection and all possible authorizations were given to the application.
+Timed diaries were sent every half an hour, but not always answered instantly.
 
 ## Data Records
+All data records consist of parquet files, where each row corresponds to a timestamp in the collecion. The frequency changes based on the dataset. 
 
-This section should be used to explain each datasets associated with this work, including the repository where this information is stored, and to provide an overview of the data files and their formats.
+### 2024-Shb-Trento-Airplane Mode Event
+Every time the airplane mode is switched on or off, collects a true/false string.
+
+### 2024-Shb-Trento-Application Event
+Every 5 seconds, collects the name of the application running in the foreground.
+
+### 2024-Shb-Trento-Battery Charge Event
+When the phone is under charge or taken off charge, collects a true/false string and the type of charger.
+
+### 2024-Shb-Trento-Battery Monitoring Log
+Every minute collects the level of the battery unless it is 20% or lower.
+
+### 2024-Shb-Trento-Bluetooth
+Every millisecond collects new bluetooth devices in the surroundings, both normal and low-energy.
+
+### 2024-Shb-Trento-Cellular Network
+Every second collects signal strength and type of cell to which the phone cellular network is connected.
+
+### 2024-Shb-Trento-Doze
+When the phone switches on or off battery saving mode, collects a true/false string.
+
+### 2024-Shb-Trento-Location
+Collects gps location, passive location (when an application that uses the location is used), and network location in terms of latitude, longitude, altitude, bearing and speed.
+
+### 2024-Shb-Trento-Music
+When music is played or stopped on the phone, collects a true/false string.
+
+### 2024-Shb-Trento-Notification
+Whenever a notification is received by the phone or dismissed by the user, collect information about the notification.
+
+### 2024-Shb-Trento-Ring Mode Event
+When the phone mode is switched between normal, silent and vibrate, collects a string of the mode being activated.
+
+### 2024-Shb-Trento-Screen
+At milliseconds rate, collects whether the phone screen is on or off through a string.
+
+### 2024-Shb-Trento-Step Counter Event
+Every 100 steps taken from last phone power on, collects the total number of steps.
+
+### 2024-Shb-Trento-Step Detector Event
+Collects an entry for every step taken by the user.
+
+### 2024-Shb-Trento-Touch
+Collects an entry every time the screen is touched.
+
+### 2024-Shb-Trento-Wifi
+Collects ssid, bssid of the wifi cell the phone is connected to and a true/false string
+
+### 2024-Shb-Trento-Wifi Networks Event
+At milliseconds rate, collect informations about all WiFi networks available. 
+
+### 2024-Shb-Trento-Timediary
+Every entry is a time diary or morning/evening question answer. Contains information on when the notification was sent, when it was answered, the time of the notification, whether a break status was on and answer to questions:
+- What are you doing?
+- Where are you?
+- With whom are you?
+- What is your mood?
+
+  Plus some subquestions conditioned on specific answers.
+
 
 ## Validation
 
