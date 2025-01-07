@@ -133,17 +133,15 @@ Time diaries missings have further been analysed. 30 of them have not been answe
 
 When attempting to perform further analysis, the expired questions and the breaks during sleep were discarded, while one break during sport activities and one break during class was imputated according to answers typical during other sport activities and class moments.
 
+For some sensors, computing of number of entries per minute has been performed in order to use it in further analysis. No systematic missing has emerged from this investigation.
+
 ## Conclusion and comments
 
-This section outlines the final considerations of the project, observations, and limitations of the work. If you want, you can include feedback about the project.
+The dataset collected is an interesting work but it could be difficult to perform further analysis on it. However, as a follow up the following will be attempted:
+- Investigation of factors impacting mood and mood change.
+- Investigation of factors impacting answer delay.
 
-Examples:
-
-- Which analysis would you like to perform on this data (e.g., investigate which activities during the day impacted your mood in the evening)?
-- Which other types of data would you like to collect or produce to perform the analysis?
-
-- What and why would you change in the data collection design to increase the quality of the dataset? (e.g, additional sensors, more/less questions, shorter data collection period)
-
+For future work, I believe collecting information on health status through an additional time diary question (e.g. "what is your health?" level 1/5) might provide interesting insights also in mood levels. 
 
 ## Information about this template
 
