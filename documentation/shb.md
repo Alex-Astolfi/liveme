@@ -104,6 +104,7 @@ Plus some subquestions conditioned on specific answers.
 Due to repeated malfunctions of the used application, the dataset is of quite small size and its validity for further analysis is dubious.
 
 The following table reports the number of entries for every sensor.
+
 |sensor|entries||sensor|entries|
 |---|---|---|---|---|
 |airplane mode|2||music|1261|
@@ -115,15 +116,18 @@ The following table reports the number of entries for every sensor.
 |cellular network|3885||touch|390727|
 |doze|56||wifi|21|
 |location|106840||wifi networks|19644|
+
 In some cases the low number is due to the event type of the collection, in other cases it is plausisble that some issues with the sensor has occurred, even if no systematic missing can be identified.
 
 The following table consists in a first broad analysis of the completeness for active data.
+
 |type|total|answered|missing|completeness|
 |---|---|---|---|---|
 |survey|1|0|1|0|
 |morning questions|8|8|0|1|
 |evening questions|9|9|0|1|
 |time diaries|414|306|108|0.74|
+
 The survey has been answered by the user but the answer has not been uploaded on the application due to the security update that stopped the data collection.
 Time diaries missings have further been analysed. 30 of them have not been answered because of breaks in the applications. 73 of them are expired and correspond to time diaries sent during the night, but the application option for activating a break malfunctioned. Finally, 5 of them were answered only after the security update and were not registered in the application.
 
